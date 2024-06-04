@@ -1,0 +1,20 @@
+[project]
+name = "aut_api_fastapi"
+version = "1.0.0"
+dependencies = [
+  "fastapi"
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Alex Duta"}
+]
+maintainers = [
+  {name = "Alex Duta"}
+]
+description = "Build API with FastAPI and Python"
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/TechWithAlexDuta/api-python.git"
+
+[tool.pytest.ini_options]

@@ -1,0 +1,27 @@
+[project]
+name = "test_api_requests"
+version = "1.0.0"
+dependencies = [
+  "pytest",
+  "pytest-html",
+  "requests"
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Alex Duta"}
+]
+maintainers = [
+  {name = "Alex Duta"}
+]
+description = "API testing with Python"
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/TechWithAlexDuta/selenium-webdriver-python.git"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+markers = [
+    "api_tests"
+]

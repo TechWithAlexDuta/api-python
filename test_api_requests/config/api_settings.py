@@ -1,0 +1,6 @@
+base_url = "http://127.0.0.1:8000"
+get_products_endpoint = "/products"
+get_product_id_endpoint = "/products/{0}"
+post_products_endpoint = "/products"
+put_products_endpoint = "/products/{0}"
+delete_products_endpoint = "/products/{0}"
